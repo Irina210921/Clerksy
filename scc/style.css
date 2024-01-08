@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'noto_sansregular';
+    src: url('../fonts/notosans-regular-webfont.eot');
+    src: url('../fonts/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/notosans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/notosans-regular-webfont.woff') format('woff'),
+    url('../fonts/notosans-regular-webfont.ttf') format('truetype'),
+    url('../fonts/notosans-regular-webfont.svg#noto_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Recoleta';
+    src: url('../fonts/Recoleta-SemiBold.eot');
+    src: local('Recoleta SemiBold'), local('Recoleta-SemiBold'),
+    url('../fonts/Recoleta-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Recoleta-SemiBold.woff') format('woff'),
+    url('../fonts/Recoleta-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 20px 0;
+    background: #163A24;
+
+}
+.container{
+    display: flex;
+    max-width: 1180px;
+    margin: auto;
+    justify-content: space-between;
+}
+.logo{
+    width: 153px;
+    height: 58px;
+
+    background-repeat: no-repeat;
+    float: left;
+}
+header nav ul{
+    padding-top: 21px;
+    padding-bottom: 15.5px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+header nav ul li{
+    display: inline;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #FBFAF7;
+    text-align: right;
+    font-family: 'noto_sansregular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 24px;
+}
+.started{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 160px;
+    background: #198C36;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.section{
+    background-color: #163A24;
+    background-image: url(../img/pic.png);
+    background-repeat: no-repeat;
+    background-position: 70% 30%;
+    padding-top: 120px;
+    padding-bottom: 129px;
+}
+
+.wrapper{
+    display: flex;
+    max-width: 1180px;
+    margin: auto;
+}
+
+.title{
+    color: #FBFAF7;
+    font-family: 'Recoleta';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65.25px;
+    margin-bottom: 18px;
+    width: 392px;
+}
+.title_p{
+    color: #FBFAF7;
+    font-family: 'noto_sansregular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    width: 475px;
+}
+
+
+
+
