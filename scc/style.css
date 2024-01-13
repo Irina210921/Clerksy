@@ -120,10 +120,38 @@ header nav ul li a{
 }
 .link{
     display: flex;
+    justify-content: center;
 }
 .stripe{
     width: 110px;
     height: 51px;
+    padding-left: 44px;
+}
+.google{
+    width: 110px;
+    height: 36px;
+    margin-left:  86px;
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+}
+.notion{
+    width: 110px;
+    height: 59px;
+    margin-left:  86px;
+}
+.gusto{
+    width: 110px;
+    height: 45px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left:  86px;
+}
+.aircall{
+    width: 110px;
+    height: 37px;
+    margin-left:  86px;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 
 
