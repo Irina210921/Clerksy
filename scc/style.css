@@ -297,7 +297,7 @@ margin-bottom: 2px;
 }
 .put_the{
     color: #163A24;
-    font-family: Recoleta;
+    font-family: 'Recoleta';
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -306,7 +306,7 @@ margin-bottom: 2px;
 }
 .stars{
     color: #163A24;
-    font-family: "Noto Sans";
+    font-family: 'noto_sansregular';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -330,7 +330,7 @@ margin-bottom: 2px;
 }
 .you{
     color: #163A24;
-    font-family: Recoleta;
+    font-family: 'Recoleta';
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -339,13 +339,48 @@ margin-bottom: 2px;
 }
 .accounting{
     color: #163A24;
-    font-family: "Noto Sans";
+    font-family: 'noto_sansregular';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 27px;
 }
 .man{
+    width: 492px;
+    height: 423px;
+    padding-right: 98px;
+}
+.togethe{
+    padding-top: 180px;
+    padding-bottom: 114px;
+    max-width: 1180px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.gruppa3{
+    padding-left: 98px;
+    padding-right: 98px;
+}
+.scenes{
+    color: #163A24;
+    font-family: 'Recoleta';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 27px;
+}
+.Development{
+    color: #163A24;
+    font-family: 'noto_sansregular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.father{
     width: 492px;
     height: 423px;
     padding-right: 98px;
