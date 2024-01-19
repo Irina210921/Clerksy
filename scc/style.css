@@ -287,4 +287,66 @@ margin-bottom: 2px;
 .human{
     max-width: 1180px;
     margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.gruppa1{
+    padding-left: 98px;
+    padding-right: 98px;
+}
+.put_the{
+    color: #163A24;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 27px;
+}
+.stars{
+    color: #163A24;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.women{
+    width: 492px;
+    height: 510px;
+    padding-left: 98px;
+}
+.parts{
+    max-width: 1180px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.gruppa2{
+    padding-left: 98px;
+    padding-right: 98px;
+}
+.you{
+    color: #163A24;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 27px;
+}
+.accounting{
+    color: #163A24;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.man{
+    width: 492px;
+    height: 423px;
+    padding-right: 98px;
 }
