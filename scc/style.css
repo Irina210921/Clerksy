@@ -352,7 +352,7 @@ margin-bottom: 2px;
 }
 .togethe{
     padding-top: 180px;
-    padding-bottom: 114px;
+    padding-bottom: 120px;
     max-width: 1180px;
     margin: auto;
     justify-content: space-between;
@@ -384,4 +384,126 @@ margin-bottom: 2px;
     width: 492px;
     height: 423px;
     padding-right: 98px;
+}
+.consider{
+    max-width: 1180px;
+    margin: auto;
+    padding-bottom: 18px;
+
+}
+.tema1{
+    color: #163A24;
+    text-align: center;
+    font-family: 'Recoleta';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 27px;
+}
+.tema2{
+    color: #163A24;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.pic{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 120px;
+  }
+.protect{
+    border-radius: 15px;
+    background: #FBFAF7;
+    box-shadow: 5px 5px 20px 0px #E9E4D5;
+    padding-top: 50px;
+    padding-bottom:66px ;
+    width: 353px;
+    margin-left: 20px;
+    margin-bottom: 37px;
+
+}
+.icon-refresh{
+    position: relative;
+    display: inline-block;
+    background-image: url(../img/icon1.svg);
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 62px;
+    height: 75px;
+}
+.caption{
+    color: #163A24;
+    font-family: 'Recoleta';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.5px;
+    margin-bottom: 23px;
+    padding-left: 40px;
+
+}
+.list li::before{
+    content: url("../img/Ellipse 1.svg");
+    fill: #163A24;
+    width: 8px;
+    height: 8px;
+    margin-right: 11px;
+    color: #163A24;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 40px;
+}
+.success{
+    border-radius: 15px;
+    background: #FBFAF7;
+    box-shadow: 5px 5px 20px 0px #E9E4D5;
+    padding-top: 50px;
+    padding-bottom:66px ;
+    width: 353px;
+    margin-left: 40px;
+}
+.icon1{
+    position: relative;
+    display: inline-block;
+    background-image: url(../img/iconstars.svg);
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 83px;
+    height: 75px;
+}
+.caption2{
+    color: #163A24;
+    font-family: 'Recoleta';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.5px;
+    margin-bottom: 23px;
+    padding-left: 40px;
+}
+.list2 li::before{
+    content: url("../img/Ellipse 1.svg");
+    fill: #163A24;
+    width: 8px;
+    height: 8px;
+    margin-right: 11px;
+    color: #163A24;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 40px;
 }
