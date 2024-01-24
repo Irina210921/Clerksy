@@ -552,17 +552,34 @@ margin-bottom: 2px;
     line-height: normal;
     padding-left: 40px;
 }
+
+
+
+
 .sect{
     background: #F2EFE6;
     padding-top: 114px;
     padding-bottom: 124px;
-
 }
 .sectoin9{
+
+    max-width: 1180px;
+    margin: auto;
+
+}
+.ggg{
     max-width: 1180px;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 46px;
+
+}
+.strelka1{
+    width: 262.203px;
+    height: 100px;
+    position: relative;
 
 }
 .subtittle{
@@ -604,11 +621,60 @@ margin-bottom: 2px;
     font-weight: 600;
     line-height: 31.5px;
 }
-.strelka1::after{
+
+.strelka1::before{
+    position: absolute;
     content: url("../img/стрелка1.svg");
     width: 75px;
     height: 36px;
+    margin-left: 300px;
+    margin-top: 25px;
+
 }
+.strelka2{
+    width: 262px;
+    position: relative;
+
+}
+.strelka2::before{
+    position: absolute;
+    content: url("../img/стрелка2.svg");
+    margin-left: 300px;
+    margin-top: 25px;
+}
+.many{
+    background-image: url(../img/Vector2.svg);
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    width: 290px;
+    height: 183px;
+    box-sizing: border-box;
+}
+.button_div{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    border-radius: 160px;
+    background: #198C36;
+    color: #FBFAF7;
+    text-align: center;
+    font-family: 'noto_sansregular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
+
+
+
+
+
 
 .book{
     padding-top: 120px;
