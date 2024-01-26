@@ -1,0 +1,65 @@
+@media screen and (max-width: 438px){
+    .section {
+        background-image: none;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header nav ul li a {
+        margin-left:0px;
+        font-size: 10px;
+    }
+    .title_p{
+        width: 100%;
+    }
+    .Put{
+        padding-top: 50px;
+    }
+    .human{
+        display: block;
+    }
+    .women{
+        width: 100%;
+        height: auto;
+        padding-left: 2px;
+    }
+    .gruppa1{
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .parts{
+        display: block;
+        padding-top: 20px;
+    }
+    .gruppa2 {
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .man{
+        width: 100%;
+        height: auto;
+        padding-left: 2px;
+    }
+    .we_partner{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .partner{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .link{
+        display: block;
+    }
+    .stripe{
+        padding-left: 0px;
+    }
+    .google{
+        margin-left: 46px;
+    }
+    .notion{
+        margin-left: 46px;
+    }
+    .aircall{
+        margin-left: 46px;
+    }
+}

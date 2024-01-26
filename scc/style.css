@@ -447,7 +447,14 @@ margin-bottom: 2px;
     line-height: 31.5px;
     margin-bottom: 23px;
     padding-left: 40px;
-
+}
+.list li{
+    color: #163A24;
+    font-family: 'noto_sansregular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .list li::before{
     content: url("../img/Ellipse 1.svg");
@@ -455,12 +462,6 @@ margin-bottom: 2px;
     width: 8px;
     height: 8px;
     margin-right: 11px;
-    color: #163A24;
-    font-family: 'noto_sansregular';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     padding-left: 40px;
 }
 .success{
@@ -493,18 +494,20 @@ margin-bottom: 2px;
     margin-bottom: 23px;
     padding-left: 40px;
 }
+.list2 li{
+    color: #163A24;
+    font-family: 'noto_sansregular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .list2 li::before{
     content: url("../img/Ellipse 1.svg");
     fill: #163A24;
     width: 8px;
     height: 8px;
     margin-right: 11px;
-    color: #163A24;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     padding-left: 40px;
 }
 .landscape{
@@ -538,21 +541,22 @@ margin-bottom: 2px;
     margin-bottom: 23px;
     padding-left: 40px;
 }
-.list3 li::before{
-    content: url("../img/Ellipse 1.svg");
-    fill: #163A24;
-    width: 8px;
-    height: 8px;
-    margin-right: 11px;
+.list3 li{
     color: #163A24;
     font-family: 'noto_sansregular';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.list3 li::before{
+    content: url("../img/Ellipse 1.svg");
+    fill: #163A24;
+    width: 8px;
+    height: 8px;
+    margin-right: 11px;
     padding-left: 40px;
 }
-
 
 
 
@@ -624,11 +628,11 @@ margin-bottom: 2px;
 
 .strelka1::before{
     position: absolute;
-    content: url("../img/стрелка1.svg");
+    content: url("../img/strelk1.svg");
     width: 75px;
     height: 36px;
-    margin-left: 300px;
-    margin-top: 25px;
+    right: -110px;
+    top: 20px;
 
 }
 .strelka2{
@@ -638,9 +642,9 @@ margin-bottom: 2px;
 }
 .strelka2::before{
     position: absolute;
-    content: url("../img/стрелка2.svg");
-    margin-left: 300px;
-    margin-top: 25px;
+    content: url("../img/strelk2.svg");
+    right: -110px;
+    top: 20px;
 }
 .many{
     background-image: url(../img/Vector2.svg);
@@ -649,10 +653,6 @@ margin-bottom: 2px;
     width: 290px;
     height: 183px;
     box-sizing: border-box;
-}
-.button_div{
-    display: flex;
-    justify-content: center;
 }
 .button{
     border-radius: 160px;
@@ -668,14 +668,11 @@ margin-bottom: 2px;
     padding-bottom: 15px;
     padding-right: 25px;
     padding-left: 25px;
-
+    margin: auto;
+    display: block;
+    width: 244px;
+    text-decoration: none;
 }
-
-
-
-
-
-
 .book{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -716,6 +713,9 @@ margin-bottom: 2px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 191px;
+    text-align: center;
+    text-decoration: none;
 }
 .books{
     margin-left: 184px;
@@ -741,7 +741,8 @@ margin-bottom: 2px;
 .end{
     padding-top: 120px;
     padding-bottom: 120px;
-    position: relative;
+    max-width: 1180px;
+    margin: auto;
 }
 .get_started{
     color: #FBFAF7;
@@ -777,8 +778,9 @@ margin-bottom: 2px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    justify-content: center;
-    position: absolute;
+    width: 258px;
     right: 46%;
-
+    text-decoration: none;
+    margin: auto;
+    display: block;
 }
