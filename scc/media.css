@@ -1,8 +1,10 @@
-@media screen and (max-width: 438px){
+@media screen and (max-width: 428px){
     .section {
         background-image: none;
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .container nav ul{
         padding-top: 21px;
@@ -13,6 +15,9 @@
     .container nav ul li a {
         margin-left:0px;
         font-size: 12px;
+    }
+    .title{
+        width: 100%;
     }
     .title_p{
         width: 100%;
@@ -27,10 +32,14 @@
         width: 100%;
         height: auto;
         padding-left: 2px;
+        padding-right: 4px;
     }
     .gruppa1{
         padding-left: 20px;
         padding-right: 0px;
+    }
+    .put_the{
+        width: 100%;
     }
     .parts{
         display: block;
@@ -57,12 +66,15 @@
         display: block;
     }
     .stripe{
-        padding-left: 0px;
+        margin-left: 0;
     }
     .google{
         margin-left: 46px;
     }
     .notion{
+        margin-left: 46px;
+    }
+    .gusto{
         margin-left: 46px;
     }
     .aircall{
@@ -119,10 +131,13 @@
     }
     .pic{
         display: block;
+
+    }
+    .protect{
         width: 90%;
     }
     .success{
-        width: 90%;
+        width: 80%;
         margin-left: 0;
         padding-left: 40px;
         margin-bottom: 37px;
@@ -138,7 +153,7 @@
     }
     .book{
         display: block;
-        padding-left: 20px;
+        padding-left: 0px;
         padding-bottom: 20px;
     }
     .books{
@@ -158,6 +173,17 @@
     }
     .time{
         margin-bottom: 15px;
-
     }
+    .strelka1::before{
+        position: absolute;
+        content: url("../img/strelk1.svg");
+        width: 50px;
+        height: 36px;
+        right: -40px;
+        top: 20px;}
+    .strelka2::before{
+        position: absolute;
+        content: url("../img/strelk2.svg");
+        right: -60px;
+        top: 20px;}
 }
