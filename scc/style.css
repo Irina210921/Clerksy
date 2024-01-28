@@ -37,20 +37,19 @@ header{
 .logo{
     width: 153px;
     height: 58px;
-
     background-repeat: no-repeat;
     float: left;
 }
-header nav ul{
+.container nav ul{
     padding-top: 21px;
     padding-bottom: 15.5px;
     padding-left: 24px;
     padding-right: 24px;
 }
-header nav ul li{
+.container nav ul li{
     display: inline;
 }
-header nav ul li a{
+.container nav ul li a{
     text-decoration: none;
     color: #FBFAF7;
     text-align: right;
