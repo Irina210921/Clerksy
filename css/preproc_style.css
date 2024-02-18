@@ -1,81 +1,71 @@
-$main_font: 'noto_sansregular';
-$main_color: #163A24;
-$main_fonts: 'Recoleta';
-
-
-
-
-
-
 @font-face {
-  font-family: 'noto_sansregular';
-  src: url('../fonts/notosans-regular-webfont.eot');
-  src: url('../fonts/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/notosans-regular-webfont.woff2') format('woff2'),
-  url('../fonts/notosans-regular-webfont.woff') format('woff'),
-  url('../fonts/notosans-regular-webfont.ttf') format('truetype'),
-  url('../fonts/notosans-regular-webfont.svg#noto_sansregular') format('svg');
+  font-family: "noto_sansregular";
+  src: url("../fonts/notosans-regular-webfont.eot");
+  src: url("../fonts/notosans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-regular-webfont.woff2") format("woff2"), url("../fonts/notosans-regular-webfont.woff") format("woff"), url("../fonts/notosans-regular-webfont.ttf") format("truetype"), url("../fonts/notosans-regular-webfont.svg#noto_sansregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Recoleta';
-  src: url('../fonts/Recoleta-SemiBold.eot');
-  src: local('Recoleta SemiBold'), local('Recoleta-SemiBold'),
-  url('../fonts/Recoleta-SemiBold.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Recoleta-SemiBold.woff') format('woff'),
-  url('../fonts/Recoleta-SemiBold.ttf') format('truetype');
+  font-family: "Recoleta";
+  src: url("../fonts/Recoleta-SemiBold.eot");
+  src: local("Recoleta SemiBold"), local("Recoleta-SemiBold"), url("../fonts/Recoleta-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Recoleta-SemiBold.woff") format("woff"), url("../fonts/Recoleta-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
-*{
+* {
   padding: 0;
   margin: 0;
 }
-body{
-  background: $main_color;
+
+body {
+  background: #163A24;
 }
-main{
+
+main {
   background: white;
 }
-header{
-  padding: 20px 0;
-  background: $main_color;
 
+header {
+  padding: 20px 0;
+  background: #163A24;
 }
-.container{
+
+.container {
   display: flex;
-  max-width: 1180px;
   margin: auto;
+  max-width: 1180px;
   justify-content: space-between;
 }
-.logo{
+
+.logo {
   width: 153px;
   height: 58px;
   background-repeat: no-repeat;
   float: left;
 }
-.container nav ul{
+
+.container nav ul {
   padding-top: 21px;
   padding-bottom: 15.5px;
   padding-left: 24px;
   padding-right: 24px;
-  li{
-    display: inline;
-    a{
-      text-decoration: none;
-      color: #FBFAF7;
-      text-align: right;
-      font-family: $main_font;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-left: 24px;
-  }
 }
+.container nav ul li {
+  display: inline;
 }
-.started{
+.container nav ul li a {
+  text-decoration: none;
+  color: #FBFAF7;
+  text-align: right;
+  font-family: "noto_sansregular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 24px;
+}
+
+.started {
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 160px;
@@ -83,8 +73,9 @@ header{
   padding-left: 15px;
   padding-right: 15px;
 }
-.section{
-  background-color: $main_color;
+
+.section {
+  background-color: #163A24;
   background-image: url(../img/pic.png);
   background-repeat: no-repeat;
   background-position: 70% 30%;
@@ -92,15 +83,15 @@ header{
   padding-bottom: 129px;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
-  max-width: 1180px;
   margin: auto;
+  max-width: 1180px;
 }
 
-.title{
+.title {
   color: #FBFAF7;
-  font-family: $main_fonts;
+  font-family: "Recoleta";
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -108,77 +99,87 @@ header{
   margin-bottom: 18px;
   width: 392px;
 }
-.title_p{
+
+.title_p {
   color: #FBFAF7;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
   width: 475px;
 }
-.we_partner{
+
+.we_partner {
   padding-top: 136px;
   padding-bottom: 121px;
 }
-.we_partner2{
+
+.we_partner2 {
   max-width: 1180px;
   margin: auto;
 }
-.partner{
-  color: $main_color;
+
+.partner {
+  color: #163A24;
   text-align: center;
-  font-family: $main_fonts;
+  font-family: "Recoleta";
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 54px;
   margin-bottom: 67px;
 }
-.link{
+
+.link {
   display: flex;
   justify-content: center;
 }
-.stripe{
+
+.stripe {
   width: 110px;
   height: 51px;
   padding-left: 44px;
 }
-.google{
+
+.google {
   width: 110px;
   height: 36px;
-  margin-left:  86px;
-  padding-top: 11.5px;
-  padding-bottom: 11.5px;
+  margin-left: 86px;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
-.notion{
+
+.notion {
   width: 110px;
   height: 59px;
-  margin-left:  86px;
+  margin-left: 86px;
 }
-.gusto{
+
+.gusto {
   width: 110px;
   height: 45px;
   padding-top: 7px;
   padding-bottom: 7px;
-  margin-left:  86px;
+  margin-left: 86px;
 }
-.aircall{
+
+.aircall {
   width: 110px;
   height: 37px;
-  margin-left:  86px;
+  margin-left: 86px;
   padding-top: 11px;
   padding-bottom: 11px;
 }
-.HR{
+
+.HR {
   padding-top: 66px;
   padding-bottom: 120px;
-  background: $main_color;
-
-
+  background: #163A24;
 }
-.qualit{
-  font-family: $main_fonts;
+
+.qualit {
+  font-family: "Recoleta";
   color: #FBFAF7;
   text-align: center;
   font-size: 48px;
@@ -187,261 +188,288 @@ header{
   line-height: 54px;
 }
 
-.pictures{
+.pictures {
   display: flex;
-  max-width: 1180px;
   margin: auto;
+  max-width: 1180px;
   padding-top: 69px;
 }
 
-.educates{
+.educates {
   width: 117px;
   height: 145px;
   margin-bottom: 28px;
   margin-right: 197px;
   padding-left: 89px;
-
 }
-.text{
+
+.text {
+  margin-left: -100px;
   color: #FBFAF7;
   text-align: center;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
-  margin-left: -100px;
 }
-.protects{
+
+.protects {
   width: 79px;
   height: 160px;
   margin-bottom: 28px;
   display: flex;
   margin-right: 223px;
-
 }
-.texts{
+
+.texts {
+  margin-left: -208px;
   color: #FBFAF7;
   text-align: center;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
-  margin-left: -208px;
-
 }
-.manages{
+
+.manages {
   width: 66px;
   height: 145px;
   margin-bottom: 28px;
   display: flex;
   margin-right: 214px;
-
 }
-.text3{
+
+.text3 {
   color: #FBFAF7;
   text-align: center;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
   margin-left: -208px;
 }
-.create{
+
+.create {
   width: 95px;
   height: 150px;
   display: flex;
   margin-bottom: 28px;
 }
-.text4{
+
+.text4 {
   color: #FBFAF7;
   text-align: center;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
   margin-left: -28px;
 }
-.Employees{
+
+.Employees {
   padding-top: 120px;
   padding-bottom: 120px;
   background: #F2EFE6;
   text-align: center;
 }
-.Employees2{
+
+.Employees2 {
   max-width: 1440px;
   margin: auto;
 }
-.Employees_come{
-  color: $main_color;
+
+.Employees_come {
+  color: #163A24;
   text-align: center;
-  font-family: $main_fonts;
+  font-family: "Recoleta";
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 54px;
   margin-bottom: 27px;
 }
-.focus{
-  color: $main_color;
+
+.focus {
+  color: #163A24;
   text-align: center;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
   margin-bottom: 2px;
 }
-.Put{
+
+.Put {
   padding-top: 120px;
 }
-.human{
+
+.human {
   max-width: 1180px;
+  display: flex;
   margin: auto;
   justify-content: space-between;
-  display: flex;
   align-items: center;
 }
-.gruppa1{
+
+.gruppa1 {
   padding-left: 98px;
   padding-right: 98px;
 }
-.put_the{
-  color: $main_color;
-  font-family: $main_fonts;
+
+.put_the {
+  color: #163A24;
+  font-family: "Recoleta";
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 54px;
   margin-bottom: 27px;
 }
-.stars{
-  color: $main_color;
-  font-family: $main_font;
+
+.stars {
+  color: #163A24;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
 }
-.women{
+
+.women {
   width: 492px;
   height: 510px;
   padding-left: 98px;
 }
-.parts{
+
+.parts {
   max-width: 1180px;
+  display: flex;
   margin: auto;
   justify-content: space-between;
-  display: flex;
   align-items: center;
 }
-.gruppa2{
+
+.gruppa2 {
   padding-left: 98px;
   padding-right: 98px;
 }
-.you{
-  color: $main_color;
-  font-family: $main_fonts;
+
+.you {
+  color: #163A24;
+  font-family: "Recoleta";
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 54px;
   margin-bottom: 27px;
 }
-.accounting{
-  color: $main_color;
-  font-family: $main_font;
+
+.accounting {
+  color: #163A24;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
 }
-.man{
+
+.man {
   width: 492px;
   height: 423px;
   padding-right: 98px;
 }
-.togethe{
+
+.togethe {
   padding-top: 180px;
   padding-bottom: 120px;
   max-width: 1180px;
+  display: flex;
   margin: auto;
   justify-content: space-between;
-  display: flex;
   align-items: center;
 }
-.gruppa3{
+
+.gruppa3 {
   padding-left: 98px;
   padding-right: 98px;
 }
-.scenes{
-  color: $main_color;
-  font-family: $main_fonts;
+
+.scenes {
+  color: #163A24;
+  font-family: "Recoleta";
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 54px;
   margin-bottom: 27px;
 }
-.Development{
-  color: $main_color;
-  font-family: $main_font;
+
+.Development {
+  color: #163A24;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
 }
-.father{
+
+.father {
   width: 492px;
   height: 423px;
   padding-right: 98px;
 }
-.consider{
+
+.consider {
   max-width: 1180px;
   margin: auto;
   padding-bottom: 18px;
-
 }
-.tema1{
-  color: $main_color;
+
+.tema1 {
+  color: #163A24;
   text-align: center;
-  font-family: $main_fonts;
+  font-family: "Recoleta";
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 54px;
   margin-bottom: 27px;
 }
-.tema2{
-  color: $main_color;
+
+.tema2 {
+  color: #163A24;
   text-align: center;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
 }
-.pic{
+
+.pic {
   max-width: 1140px;
-  margin: auto;
   display: flex;
+  margin: auto;
   margin-bottom: 120px;
 }
-.protect{
+
+.protect {
   border-radius: 15px;
   background: #FBFAF7;
   box-shadow: 5px 5px 20px 0px #E9E4D5;
   padding-top: 50px;
-  padding-bottom:66px ;
+  padding-bottom: 66px;
   width: 353px;
   margin-left: 20px;
   margin-bottom: 37px;
-
 }
-.icon-refresh{
+
+.icon-refresh {
   position: relative;
   display: inline-block;
   background-image: url(../img/icon1.svg);
@@ -452,9 +480,10 @@ header{
   width: 62px;
   height: 75px;
 }
-.caption{
-  color: $main_color;
-  font-family: $main_fonts;
+
+.caption {
+  color: #163A24;
+  font-family: "Recoleta";
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -462,32 +491,36 @@ header{
   margin-bottom: 23px;
   padding-left: 40px;
 }
-.list li{
-  color: $main_color;
-  font-family: $main_font;
+
+.list li {
+  color: #163A24;
+  font-family: "noto_sansregular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-.list li::before{
+
+.list li::before {
   content: url("../img/Ellipse 1.svg");
-  fill: $main_color;
+  fill: #163A24;
   width: 8px;
   height: 8px;
   margin-right: 11px;
   padding-left: 40px;
 }
-.success{
+
+.success {
   border-radius: 15px;
   background: #FBFAF7;
   box-shadow: 5px 5px 20px 0px #E9E4D5;
   padding-top: 50px;
-  padding-bottom:66px ;
+  padding-bottom: 66px;
   width: 353px;
   margin-left: 40px;
 }
-.icon1{
+
+.icon1 {
   position: relative;
   display: inline-block;
   background-image: url(../img/iconstars.svg);
@@ -498,9 +531,10 @@ header{
   width: 83px;
   height: 75px;
 }
-.caption2{
-  color: $main_color;
-  font-family: $main_fonts;
+
+.caption2 {
+  color: #163A24;
+  font-family: "Recoleta";
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -508,33 +542,37 @@ header{
   margin-bottom: 23px;
   padding-left: 40px;
 }
-.list2 li{
-  color: $main_color;
-  font-family: $main_font;
+
+.list2 li {
+  color: #163A24;
+  font-family: "noto_sansregular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-.list2 li::before{
+
+.list2 li::before {
   content: url("../img/Ellipse 1.svg");
-  fill: $main_color;
+  fill: #163A24;
   width: 8px;
   height: 8px;
   margin-right: 11px;
   padding-left: 40px;
 }
-.landscape{
+
+.landscape {
   border-radius: 15px;
   background: #FBFAF7;
   box-shadow: 5px 5px 20px 0px #E9E4D5;
   padding-top: 50px;
-  padding-bottom:66px ;
+  padding-bottom: 66px;
   width: 353px;
   margin-left: 40px;
   margin-bottom: 37px;
 }
-.icon2{
+
+.icon2 {
   position: relative;
   display: inline-block;
   background-image: url(../img/lupa.svg);
@@ -545,9 +583,10 @@ header{
   width: 82px;
   height: 75px;
 }
+
 .caption3 {
-  color: $main_color;
-  font-family: $main_fonts;
+  color: #163A24;
+  font-family: "Recoleta";
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -555,112 +594,116 @@ header{
   margin-bottom: 23px;
   padding-left: 40px;
 }
-.list3 li{
-  color: $main_color;
-  font-family: $main_font;
+
+.list3 li {
+  color: #163A24;
+  font-family: "noto_sansregular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-.list3 li::before{
+
+.list3 li::before {
   content: url("../img/Ellipse 1.svg");
-  fill: $main_color;
+  fill: #163A24;
   width: 8px;
   height: 8px;
   margin-right: 11px;
   padding-left: 40px;
 }
 
-
-
-.sect{
+.sect {
   background: #F2EFE6;
   padding-top: 114px;
   padding-bottom: 124px;
 }
-.sectoin9{
 
+.sectoin9 {
   max-width: 1180px;
   margin: auto;
-
 }
-.ggg{
+
+.ggg {
   max-width: 1180px;
-  margin: auto;
   display: flex;
+  margin: auto;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 46px;
-
 }
-.strelka1{
+
+.strelka1 {
   width: 262.203px;
   height: 100px;
   position: relative;
-
 }
-.subtittle{
-  color: $main_color;
+
+.subtittle {
+  color: #163A24;
   text-align: center;
-  font-family: $main_fonts;
+  font-family: "Recoleta";
   font-size: 47px;
   font-style: normal;
   font-weight: 600;
   line-height: 54px;
   margin-bottom: 26px;
 }
-.Clerksy{
-  color: $main_color;
+
+.Clerksy {
+  color: #163A24;
   text-align: center;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
   margin-bottom: 60px;
 }
-.paragraf{
-  color: $main_color;
+
+.paragraf {
+  color: #163A24;
   text-align: center;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
   margin-bottom: 13px;
 }
-.time{
-  color: $main_color;
+
+.time {
+  color: #163A24;
   text-align: center;
-  font-family: $main_fonts;
+  font-family: "Recoleta";
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
   line-height: 31.5px;
 }
 
-.strelka1::before{
+.strelka1::before {
   position: absolute;
   content: url("../img/strelk1.svg");
   width: 75px;
   height: 36px;
   right: -110px;
   top: 20px;
-
 }
-.strelka2{
+
+.strelka2 {
   width: 262px;
   position: relative;
-
 }
-.strelka2::before{
+
+.strelka2::before {
   position: absolute;
   content: url("../img/strelk2.svg");
   right: -110px;
   top: 20px;
 }
-.many{
+
+.many {
   background-image: url(../img/Vector2.svg);
   background-repeat: no-repeat;
   padding-top: 30px;
@@ -668,12 +711,13 @@ header{
   height: 183px;
   box-sizing: border-box;
 }
-.button{
+
+.button {
   border-radius: 160px;
   background: #198C36;
   color: #FBFAF7;
   text-align: center;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -687,34 +731,38 @@ header{
   width: 244px;
   text-decoration: none;
 }
-.book{
+
+.book {
   padding-top: 120px;
   padding-bottom: 120px;
   max-width: 1180px;
+  display: flex;
   margin: auto;
   justify-content: space-between;
-  display: flex;
   align-items: center;
 }
-.another{
-  color: $main_color;
-  font-family: $main_fonts;
+
+.another {
+  color: #163A24;
+  font-family: "Recoleta";
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 54px;
   margin-bottom: 25px;
 }
-.simple{
-  color: $main_color;
-  font-family: $main_font;
+
+.simple {
+  color: #163A24;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
   margin-bottom: 19px;
 }
-.download{
+
+.download {
   border-radius: 160px;
   background: #198C36;
   padding-top: 15px;
@@ -722,7 +770,7 @@ header{
   padding-left: 25px;
   padding-right: 25px;
   color: #FBFAF7;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -731,7 +779,8 @@ header{
   text-align: center;
   text-decoration: none;
 }
-.books{
+
+.books {
   margin-left: 184px;
   background-image: url(../img/Vector.svg);
   width: 490.042px;
@@ -743,51 +792,56 @@ header{
   background-repeat: no-repeat;
   padding-top: 33px;
   padding-left: 83px;
-  padding-right: 93px ;
+  padding-right: 93px;
   padding-bottom: 43px;
 }
-.sect_end{
+
+.sect_end {
   background-image: url(../img/leftpic.svg), url(../img/rightpic.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: left,right;
-  background-color: $main_color;
+  background-position: left, right;
+  background-color: #163A24;
 }
-.end{
+
+.end {
   padding-top: 120px;
   padding-bottom: 120px;
   max-width: 1180px;
   margin: auto;
 }
-.get_started{
+
+.get_started {
   color: #FBFAF7;
   text-align: center;
-  font-family: $main_fonts;
+  font-family: "Recoleta";
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 54px;
   margin-bottom: 26px;
 }
-.make{
+
+.make {
   color: #FBFAF7;
   text-align: center;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
   margin-bottom: 18px;
 }
-.Discovery{
+
+.Discovery {
   border-radius: 160px;
   background: #FAB5A0;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 25px;
   padding-left: 25px;
-  color: $main_color;
+  color: #163A24;
   text-align: center;
-  font-family: $main_font;
+  font-family: "noto_sansregular";
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -798,6 +852,9 @@ header{
   margin: auto;
   display: block;
 }
-.cd-3d-nav-trigger{
+
+.cd-3d-nav-trigger {
   display: none;
 }
+
+/*# sourceMappingURL=preproc_style.css.map */
