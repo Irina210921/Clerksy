@@ -500,8 +500,7 @@ header {
   font-weight: 400;
   line-height: normal;
 }
-
-.list li::before {
+.list li:before {
   content: url("../img/Ellipse 1.svg");
   fill: #163A24;
   width: 8px;
@@ -551,8 +550,7 @@ header {
   font-weight: 400;
   line-height: normal;
 }
-
-.list2 li::before {
+.list2 li:before {
   content: url("../img/Ellipse 1.svg");
   fill: #163A24;
   width: 8px;
@@ -603,8 +601,7 @@ header {
   font-weight: 400;
   line-height: normal;
 }
-
-.list3 li::before {
+.list3 li:before {
   content: url("../img/Ellipse 1.svg");
   fill: #163A24;
   width: 8px;

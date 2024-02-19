@@ -455,14 +455,15 @@ header{
   font-style: $myFontStyle;
   font-weight: 400;
   line-height: normal;
+  &:before{
+    content: url("../img/Ellipse 1.svg");
+    fill: $main_color;
+    width: 8px;
+    height: 8px;
+    margin-right: 11px;
+    padding-left: 40px;
+  }
 }
-.list li::before{
-  content: url("../img/Ellipse 1.svg");
-  fill: $main_color;
-  width: 8px;
-  height: 8px;
-  margin-right: 11px;
-  padding-left: 40px;
 }
 .success{
   border-radius: 15px;
@@ -501,14 +502,14 @@ header{
   font-style: $myFontStyle;
   font-weight: 400;
   line-height: normal;
-}
-.list2 li::before{
-  content: url("../img/Ellipse 1.svg");
-  fill: $main_color;
-  width: 8px;
-  height: 8px;
-  margin-right: 11px;
-  padding-left: 40px;
+  &:before{
+    content: url("../img/Ellipse 1.svg");
+    fill: $main_color;
+    width: 8px;
+    height: 8px;
+    margin-right: 11px;
+    padding-left: 40px;
+  }
 }
 .landscape{
   border-radius: 15px;
@@ -548,18 +549,15 @@ header{
   font-style: $myFontStyle;
   font-weight: 400;
   line-height: normal;
+  &:before{
+    content: url("../img/Ellipse 1.svg");
+    fill: $main_color;
+    width: 8px;
+    height: 8px;
+    margin-right: 11px;
+    padding-left: 40px;
+  }
 }
-.list3 li::before{
-  content: url("../img/Ellipse 1.svg");
-  fill: $main_color;
-  width: 8px;
-  height: 8px;
-  margin-right: 11px;
-  padding-left: 40px;
-}
-
-
-
 .sect{
   background: #F2EFE6;
   padding-top: 114px;
