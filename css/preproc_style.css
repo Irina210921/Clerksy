@@ -851,4 +851,96 @@ header {
   display: none;
 }
 
+.footer1 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #F2EFE6;
+}
+
+.holder {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  max-width: 1180px;
+}
+
+.stay_up {
+  font-family: "Recoleta";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #163A24;
+  margin-bottom: 24px;
+}
+
+.desk {
+  font-family: "noto_sansregular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #163A24;
+}
+
+form {
+  width: 553px;
+  height: 54px;
+  top: -0.2px;
+  border-radius: 255px;
+  border: 1px;
+  background: #FFFFFF;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  margin-bottom: 11px;
+}
+
+input {
+  position: absolute;
+  left: 80%;
+  border-radius: none;
+  background: transparent;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content: right;
+  width: 111px;
+  height: 52px;
+  border-radius: 160px;
+  background: #15762E;
+  border: none;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FBFAF7;
+}
+
+.by_submit {
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #163A24;
+}
+
+.policia {
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #198C36;
+}
+
 /*# sourceMappingURL=preproc_style.css.map */

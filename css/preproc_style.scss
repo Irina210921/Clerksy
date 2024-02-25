@@ -200,10 +200,8 @@ header{
   font-weight: 600;
   line-height: 54px;
 }
-
 .owl-carousel{
   @include content;
-
   padding-top: 69px;
 }
 .owl-carousel.owl-loaded{
@@ -214,25 +212,19 @@ header{
   width: 117px;
   height: 145px;
   margin-bottom: 28px;
-
 }
 .text{
   padding-left: 15px;
   @include desk;
-
 }
-
 .protects{
   width: 79px;
   height: 160px;
   margin-bottom: 28px;
-
-
 }
 .texts{
   padding-left: 15px;
   @include desk;
-
 }
 .manages{
   width: 66px;
@@ -779,4 +771,88 @@ header{
 }
 .cd-3d-nav-trigger{
   display: none;
+}
+.footer1{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #F2EFE6;
+}
+.holder{
+  @include content;
+  justify-content: space-between;
+  max-width: $myWidth;
+}
+.stay_up{
+  font-family: $main_fonts;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: $main_color;
+  margin-bottom: 24px;
+}
+.desk{
+  font-family: $main_font;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:$main_color;
+}
+form{
+  width: 553px;
+  height: 54px;
+  top: -0.2px;
+  border-radius: 255px;
+  border: 1px;
+  background: #FFFFFF;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  margin-bottom: 11px;
+}
+input{
+  position: absolute;
+  left: 80%;
+    border-radius: none;
+    background: transparent;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content: right;
+  width: 111px;
+  height: 52px;
+  border-radius: 160px;
+  background: #15762E;
+  border: none;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FBFAF7;
+
+}
+.by_submit{
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #163A24;
+}
+.policia{
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #198C36;
 }
