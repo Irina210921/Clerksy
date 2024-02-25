@@ -1,3 +1,18 @@
+$('.owl-carousel').owlCarousel({
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        1100:{
+            items:4
+        }
+    }
+});
+
+
+
+
 jQuery(document).ready(function($){
     //toggle 3d navigation
     $('.cd-3d-nav-trigger').on('click', function(){
