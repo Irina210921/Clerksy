@@ -943,4 +943,37 @@ input {
   color: #198C36;
 }
 
+.footer2 {
+  padding-top: 44px;
+  padding-bottom: 24px;
+  background: #FFFFFF;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1180px;
+  margin: auto;
+  margin-bottom: 19px;
+}
+
+.a_people {
+  font-family: Recoleta;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #163A24;
+}
+
+.footer2 ul li {
+  display: inline;
+}
+
+.footer2 ul li a {
+  text-decoration: none;
+  margin-left: 14px;
+}
+
 /*# sourceMappingURL=preproc_style.css.map */
