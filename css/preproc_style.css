@@ -135,6 +135,9 @@ header {
   display: flex;
   justify-content: center;
 }
+.link a {
+  text-decoration: none;
+}
 
 .stripe {
   width: 110px;
@@ -901,7 +904,6 @@ form {
 input {
   position: absolute;
   left: 80%;
-  border-radius: none;
   background: transparent;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -914,7 +916,7 @@ input {
   background: #15762E;
   border: none;
   text-align: center;
-  font-family: Noto Sans;
+  font-family: "noto_sansregular";
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -924,7 +926,7 @@ input {
 }
 
 .by_submit {
-  font-family: Noto Sans;
+  font-family: "noto_sansregular";
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -934,7 +936,7 @@ input {
 }
 
 .policia {
-  font-family: Noto Sans;
+  font-family: "noto_sansregular";
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -944,21 +946,22 @@ input {
 }
 
 .footer2 {
-  padding-top: 44px;
-  padding-bottom: 24px;
+  padding-top: 20px;
   background: #FFFFFF;
 }
 
 .company {
-  display: flex;
   justify-content: space-between;
   max-width: 1180px;
+  display: flex;
   margin: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-bottom: 19px;
 }
 
 .a_people {
-  font-family: Recoleta;
+  font-family: "Recoleta";
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
@@ -970,10 +973,42 @@ input {
 .footer2 ul li {
   display: inline;
 }
-
 .footer2 ul li a {
   text-decoration: none;
   margin-left: 14px;
+}
+
+.end2 {
+  justify-content: space-between;
+  max-width: 1180px;
+  display: flex;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 1px solid;
+  border-top-color: #F2EFE6;
+}
+
+.p_end {
+  font-family: "noto_sansregular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #163A24;
+}
+
+.end2 ul li a {
+  margin-right: 14px;
+  font-family: "noto_sansregular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #198C36;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=preproc_style.css.map */

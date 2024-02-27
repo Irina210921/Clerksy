@@ -22,8 +22,6 @@ display: flex;
 
 
 
-
-
 @font-face {
   font-family: 'noto_sansregular';
   src: url('../fonts/notosans-regular-webfont.eot');
@@ -153,6 +151,9 @@ header{
 .link{
   display: $main_display;
   justify-content: center;
+  a{
+    text-decoration: none;
+  }
 }
 .stripe{
   width: 110px;
@@ -794,7 +795,7 @@ header{
 }
 .desk{
   font-family: $main_font;
-  font-size: 18px;
+  font-size: $font_size;
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0em;
@@ -808,7 +809,7 @@ form{
   border-radius: 255px;
   border: 1px;
   background: #FFFFFF;
-  display: flex;
+  display: $main_display;
   position: relative;
   justify-content: flex-end;
   margin-bottom: 11px;
@@ -816,7 +817,6 @@ form{
 input{
   position: absolute;
   left: 80%;
-    border-radius: none;
     background: transparent;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -829,7 +829,7 @@ input{
   background: #15762E;
   border: none;
   text-align: center;
-  font-family: Noto Sans;
+  font-family: $main_font;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -839,16 +839,16 @@ input{
 
 }
 .by_submit{
-  font-family: Noto Sans;
+  font-family: $main_font;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  color: #163A24;
+  color: $main_color;
 }
 .policia{
-  font-family: Noto Sans;
+  font-family: $main_font;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -857,31 +857,60 @@ input{
   color: #198C36;
 }
 .footer2{
-  padding-top: 44px;
-  padding-bottom: 24px;
+  padding-top: 20px;
   background: #FFFFFF;
 }
 .company{
-  display: flex;
   justify-content: space-between;
-  max-width: 1180px;
-  margin: auto;
+  max-width: $myWidth;
+  @include content;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-bottom: 19px;
 }
 .a_people{
-  font-family: Recoleta;
+  font-family: $main_fonts;
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
   letter-spacing: 0em;
   text-align: center;
-  color: #163A24;
+  color: $main_color;
 }
 .footer2 ul li{
   display: inline;
+  a{
+    text-decoration: none;
+    margin-left: 14px;
+  }
 }
-.footer2 ul li a{
+.end2{
+  justify-content: space-between;
+  max-width: $myWidth;
+  @include content;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 1px solid;
+  border-top-color: #F2EFE6;
+}
+.p_end{
+  font-family: $main_font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+ color: $main_color;
+}
+.end2 ul li a{
+  margin-right: 14px;
+  font-family: $main_font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color:  #198C36;
   text-decoration: none;
-  margin-left: 14px;
-}
 
+}

@@ -1,4 +1,4 @@
-@media screen and (max-width: 428px){
+@media screen and (max-width: 428px) {
     .section {
         background-image: none;
         padding-left: 20px;
@@ -6,48 +6,47 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
-    .container nav ul{
+    .container nav ul {
         padding-top: 21px;
         padding-bottom: 0px;
         padding-left: 0px;
         padding-right: 20px;
     }
     .container nav ul li a {
-        margin-left:0px;
+        margin-left: 0px;
         font-size: 12px;
     }
-    .wrapper{
+    .wrapper {
         width: 100%;
     }
-    .title{
+    .title {
+        width: auto;
+    }
+    .title_p {
         width: 100%;
     }
-    .title_p{
-        width: 100%;
-    }
-    .Put{
+    .Put {
         padding-top: 50px;
         padding-right: 20px;
         padding-left: 20px;
     }
-    .human{
+    .human {
         display: block;
     }
-    .women{
+    .women {
         width: 100%;
         height: auto;
         padding-left: 2px;
         padding-right: 4px;
     }
-    .gruppa1{
+    .gruppa1 {
         padding-left: 20px;
         padding-right: 0px;
     }
-    .put_the{
+    .put_the {
         width: 100%;
     }
-    .parts{
+    .parts {
         display: block;
         padding-top: 20px;
         padding-left: 20px;
@@ -57,121 +56,113 @@
         padding-left: 20px;
         padding-right: 0px;
     }
-    .man{
+    .man {
         width: 100%;
         height: auto;
         padding-left: 2px;
         padding-right: 0;
     }
-    .we_partner{
+    .we_partner {
         padding-top: 100px;
         padding-bottom: 100px;
         padding-right: 20px;
         padding-left: 20px;
     }
-
-    .HR{
+    .HR {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .Employees{
+    .Employees {
         padding-right: 20px;
         padding-left: 20px;
     }
-    .Employees2{
+    .Employees2 {
         width: 100%;
     }
-
-
-    .togethe{
+    .togethe {
         padding-right: 20px;
         padding-left: 20px;
-
     }
-    .consider{
+    .consider {
         padding-right: 20px;
         padding-left: 20px;
-
     }
-    .partner{
+    .partner {
         font-size: 36px;
         margin-bottom: 20px;
     }
-    .link{
+    .link {
         display: block;
     }
-    .pic{
-       display: block;
+    .pic {
+        display: block;
         align-items: center;
     }
-    .pictures{
+    .pictures {
         display: block;
         width: 100%;
     }
-    .text{
+    .text {
         margin-left: 0;
     }
-
-    .texts{
+    .texts {
         margin-left: 0;
     }
-    .manages{
+    .manages {
         width: 100%;
         margin-right: 0;
     }
-    .text3{
+    .text3 {
         margin-left: 0;
     }
-    .create{
+    .create {
         width: 100%;
     }
-    .text4{
+    .text4 {
         margin-left: 0;
     }
-    .frame{
+    .frame {
         max-width: 100%;
         height: auto;
     }
-    .togethe{
+    .togethe {
         display: block;
         padding-top: 50px;
         padding-bottom: 80px;
     }
-    .gruppa3{
+    .gruppa3 {
         padding-left: 20px;
         padding-right: 0;
     }
-    .father{
-       width: 100%;
+    .father {
+        width: 100%;
         height: auto;
         padding-right: 0;
     }
-    .pic{
+    .pic {
         display: block;
-
     }
-    .human{
+    .human {
         width: 100%;
     }
-    .protect{
+    .protect {
         width: 90%;
     }
-    .success{
+    .success {
         width: 80%;
         margin-left: 20px;
         padding-left: 40px;
         margin-bottom: 37px;
     }
-    .landscape{
+    .landscape {
         width: 90%;
         margin-left: 20px;
     }
-    .ggg{
+    .ggg {
         display: block;
-
         padding-left: 50px;
     }
-    .book{
+    .book {
         display: block;
         max-width: 428px;
         padding-left: 0px;
@@ -179,47 +170,79 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-    .books{
+    .books {
         margin-left: 0;
-
         height: auto;
         background-image: none;
         padding-left: 0;
     }
-    .sect_end{
+    .sect_end {
         background-image: url(../img/leftpic.svg);
         background-repeat: no-repeat;
         background-position: left;
     }
-    .end{
+    .end {
         padding-bottom: 20px;
-
     }
-    .time{
+    .time {
         margin-bottom: 15px;
     }
-    .strelka1::before{
+    .strelka1::before {
         position: absolute;
         content: url("../img/strelk1.svg");
         width: 50px;
         height: 36px;
         right: -40px;
-        top: 20px;}
-    .strelka2::before{
+        top: 20px;
+    }
+    .strelka2::before {
         position: absolute;
         content: url("../img/strelk2.svg");
         right: -60px;
-        top: 20px;}
-    .sectoin9{
+        top: 20px;
+    }
+    .sectoin9 {
         width: 100%;
     }
-    .stripe{
+    .stripe {
         padding-left: 0px;
-    }
 
-    .notion{
-        margin-left:  0px;
     }
-
+    .notion {
+        margin-left: 0px;
+    }
+    .holder {
+        display: block;
+    }
+    .company {
+        display: block;
+        padding-left: 20px;
+    }
+    .end2 {
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .end2 ul li a {
+        display: block;
+        margin-right: 0;
+    }
+    .stay_up_date {
+        padding-left: 20px;
+    }
+    .forma {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    form {
+        width: 350px;
+    }
+    .stay_up {
+        margin-bottom: 12px;
+    }
+    .a_people {
+        text-align: left;
+        margin-bottom: 10px;
+    }
 
 }
