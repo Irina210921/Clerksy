@@ -461,7 +461,7 @@ header {
 .protect {
   border-radius: 15px;
   background: #FBFAF7;
-  box-shadow: 5px 5px 20px 0px #E9E4D5;
+  box-shadow: 5px 5px 20px 0 #E9E4D5;
   padding-top: 50px;
   padding-bottom: 66px;
   width: 353px;
@@ -512,7 +512,7 @@ header {
 .success {
   border-radius: 15px;
   background: #FBFAF7;
-  box-shadow: 5px 5px 20px 0px #E9E4D5;
+  box-shadow: 5px 5px 20px 0 #E9E4D5;
   padding-top: 50px;
   padding-bottom: 66px;
   width: 353px;
@@ -562,7 +562,7 @@ header {
 .landscape {
   border-radius: 15px;
   background: #FBFAF7;
-  box-shadow: 5px 5px 20px 0px #E9E4D5;
+  box-shadow: 5px 5px 20px 0 #E9E4D5;
   padding-top: 50px;
   padding-bottom: 66px;
   width: 353px;
@@ -780,8 +780,8 @@ header {
 .books {
   margin-left: 184px;
   background-image: url(../img/Vector.svg);
-  width: 490.042px;
-  height: 487.906px;
+  width: 490px;
+  height: 488px;
   fill: #F7BC28;
   width: 311.968px;
   height: 411.96px;
