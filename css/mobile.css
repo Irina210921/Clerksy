@@ -36,7 +36,8 @@
 @media screen and (max-width: 767px) {
 .cd-logo {
     float: left;
-    margin-top: 28px; }
+    margin-top: 12px;
+    padding-left: 20px;}
 
 .cd-3d-nav-trigger {
     position: relative;
@@ -196,6 +197,7 @@
 .started{
     padding-top: 0;
     padding-bottom: 0;
+    border-radius: 0;
 }
 .cd-3d-nav a::before {
     /* navigation icons */
@@ -218,7 +220,7 @@
 .no-touch .cd-3d-nav a:hover {
     background-color: #2b3145; }
 .cd-3d-nav .cd-selected a {
-    background-color: #212635; }
+    background-color: darkgreen; }
 .no-touch .cd-3d-nav .cd-selected a:hover {
     background-color: #212635; }
 .cd-3d-nav .cd-selected a::before {
@@ -324,4 +326,11 @@ main.nav-is-visible {
     -ms-transform: translateY(80px);
     -o-transform: translateY(80px);
     transform: translateY(80px); }}
-
+.container nav ul li a {
+    color: #FBFAF7;
+    text-align: center;
+    font-size: 20px;
+}
+.cd-3d-nav-trigger {
+    padding-right: 20px;
+}

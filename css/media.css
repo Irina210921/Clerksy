@@ -4,7 +4,6 @@
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 50px;
-        padding-bottom: 50px;
     }
     .container nav ul {
         padding-top: 21px;
@@ -20,7 +19,7 @@
         width: 100%;
     }
     .title {
-        width: auto;
+        text-align: center;
     }
     .title_p {
         width: 100%;
@@ -169,12 +168,14 @@
         padding-bottom: 20px;
         padding-left: 20px;
         padding-right: 20px;
+        text-align: center;
     }
     .books {
+        padding-left: 36px;
         margin-left: 0;
         height: auto;
         background-image: none;
-        padding-left: 0;
+
     }
     .sect_end {
         background-image: url(../img/leftpic.svg);
@@ -204,12 +205,14 @@
     .sectoin9 {
         width: 100%;
     }
-    .stripe {
-        padding-left: 0px;
-
+    .aircall{
+        margin-left: 50px;
+    }
+    .gusto{
+        margin-left: 76px;
     }
     .notion {
-        margin-left: 0px;
+        margin-left: 50px;
     }
     .holder {
         display: block;
@@ -244,5 +247,4 @@
         text-align: left;
         margin-bottom: 10px;
     }
-
 }
